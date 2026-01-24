@@ -1,6 +1,118 @@
 namespace SpriteKind {
     export const animation = SpriteKind.create()
 }
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile77`, function (sprite, location) {
+    if (dialogue == 1) {
+        mySprite2 = sprites.create(img`
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            fffff5555555555ffffff111111fff11111111fffff111111fff11ffffff11f111111fffff11111111fffff111111ffff11fffffffffffffffffffff
+            fffff5555555555ffffff111111fff11111111fffff111111fff11ffffff11f111111fffff11111111fffff111111ffff11fffffffffffffffffffff
+            fff55444444554444ff11ffffff11f11ffffff11f11ffffff11f1111ffff11f11ffff11fff11ffffff11f11ffffff11ff11fffffffffffffffffffff
+            fff55444444554444ff11ffffff11f11ffffff11f11ffffff11f1111ffff11f11ffff11fff11ffffff11f11ffffff11ff11fffffffffffffffffffff
+            f55445555dd44dd44ff11fffffffff11ffffff11f11ffffff11f11ff11ff11f11ffffff11f11ffffff11f11ffffff11ff11fffffffffffffffffffff
+            f55445555dd44dd44ff11fffffffff11ffffff11f11ffffff11f11ff11ff11f11ffffff11f11ffffff11f11ffffff11ff11fffffffffffffffffffff
+            f5544554444ddddffff11fffffffff11111111fff11ffffff11f11ff11ff11f11ffffff11f11111111fff11ffffff11ff11fffffffffffffffffffff
+            f5544554444ddddffff11fffffffff11111111fff11ffffff11f11ff11ff11f11ffffff11f11111111fff11ffffff11ff11fffffffffffffffffffff
+            f5555ffddddddddffff11ffff1111f1111fffffff1111111111f11ff11ff11f11ffffff11f11fffffffff1111111111ff11fffffffffffffffffffff
+            f5555ffddddddddffff11ffff1111f1111fffffff1111111111f11ff11ff11f11ffffff11f11fffffffff1111111111ff11fffffffffffffffffffff
+            f5555ddffffddddffff11ffffff11f11ff11fffff11ffffff11f11ffff1111f11ffff11fff11fffffffff11ffffff11fffffffffffffffffffffffff
+            f5555ddffffddddffff11ffffff11f11ff11fffff11ffffff11f11ffff1111f11ffff11fff11fffffffff11ffffff11fffffffffffffffffffffffff
+            f555544ddddddffffffff111111fff11ffff1111f11ffffff11f11ffffff11f111111fffff11fffffffff11ffffff11ff11fffffffffffffffffffff
+            f555544ddddddffffffff111111fff11ffff1111f11ffffff11f11ffffff11f111111fffff11fffffffff11ffffff11ff11fffffffffffffffffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            ffffff11ffffff11f11ffffff11f1111111111f11111111fff1111111111ffffffff111111fff11111111fff1111111111ffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f1111111111f11111111fff1111111111ffffffff111111fff11111111fff1111111111ffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11fffffffff11ffffff11f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11fffffffff11ffffff11f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11fffffffff11ffffff11f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11fffffffff11ffffff11f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ff11ff11f1111111111f111111111ff11111111fff111111111fffffff11ffffff11f11111111fff111111111fffffff11ffffff11ffffff
+            ffffff11ff11ff11f1111111111f111111111ff11111111fff111111111fffffff11ffffff11f11111111fff111111111fffffff11ffffff11ffffff
+            ffffff11ff11ff11f11ffffff11f11fffffffff1111fffffff11ffffffffffffff1111111111f1111fffffff11ffffffffffffff11ffffff11ffffff
+            ffffff11ff11ff11f11ffffff11f11fffffffff1111fffffff11ffffffffffffff1111111111f1111fffffff11ffffffffffffff11ffffff11ffffff
+            ffffff1111ff1111f11ffffff11f11fffffffff11ff11fffff11ffffffffffffff11ffffff11f11ff11fffff11ffffffffffffff11ffffff11ffffff
+            ffffff1111ff1111f11ffffff11f11fffffffff11ff11fffff11ffffffffffffff11ffffff11f11ff11fffff11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f1111111111f11ffff1111f1111111111ffffff11ffffff11f11ffff1111f1111111111ffffff1111111111ffffff
+            ffffff11ffffff11f11ffffff11f1111111111f11ffff1111f1111111111ffffff11ffffff11f11ffff1111f1111111111ffffff1111111111ffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            `, SpriteKind.animation)
+        animation.runImageAnimation(
+        mySprite2,
+        [img`
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            fffff5555555555ffffff111111fff11111111fffff111111fff11ffffff11f111111fffff11111111fffff111111ffff11fffffffffffffffffffff
+            fffff5555555555ffffff111111fff11111111fffff111111fff11ffffff11f111111fffff11111111fffff111111ffff11fffffffffffffffffffff
+            fff55444444554444ff11ffffff11f11ffffff11f11ffffff11f1111ffff11f11ffff11fff11ffffff11f11ffffff11ff11fffffffffffffffffffff
+            fff55444444554444ff11ffffff11f11ffffff11f11ffffff11f1111ffff11f11ffff11fff11ffffff11f11ffffff11ff11fffffffffffffffffffff
+            f55445555dd44dd44ff11fffffffff11ffffff11f11ffffff11f11ff11ff11f11ffffff11f11ffffff11f11ffffff11ff11fffffffffffffffffffff
+            f55445555dd44dd44ff11fffffffff11ffffff11f11ffffff11f11ff11ff11f11ffffff11f11ffffff11f11ffffff11ff11fffffffffffffffffffff
+            f5544554444ddddffff11fffffffff11111111fff11ffffff11f11ff11ff11f11ffffff11f11111111fff11ffffff11ff11fffffffffffffffffffff
+            f5544554444ddddffff11fffffffff11111111fff11ffffff11f11ff11ff11f11ffffff11f11111111fff11ffffff11ff11fffffffffffffffffffff
+            f5555ffddddddddffff11ffff1111f1111fffffff1111111111f11ff11ff11f11ffffff11f11fffffffff1111111111ff11fffffffffffffffffffff
+            f5555ffddddddddffff11ffff1111f1111fffffff1111111111f11ff11ff11f11ffffff11f11fffffffff1111111111ff11fffffffffffffffffffff
+            f5555ddffffddddffff11ffffff11f11ff11fffff11ffffff11f11ffff1111f11ffff11fff11fffffffff11ffffff11fffffffffffffffffffffffff
+            f5555ddffffddddffff11ffffff11f11ff11fffff11ffffff11f11ffff1111f11ffff11fff11fffffffff11ffffff11fffffffffffffffffffffffff
+            f555544ddddddffffffff111111fff11ffff1111f11ffffff11f11ffffff11f111111fffff11fffffffff11ffffff11ff11fffffffffffffffffffff
+            f555544ddddddffffffff111111fff11ffff1111f11ffffff11f11ffffff11f111111fffff11fffffffff11ffffff11ff11fffffffffffffffffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            ffffff11ffffff11f11ffffff11f1111111111f11111111fff1111111111ffffffff111111fff11111111fff1111111111ffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f1111111111f11111111fff1111111111ffffffff111111fff11111111fff1111111111ffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11fffffffff11ffffff11f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11fffffffff11ffffff11f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11fffffffff11ffffff11f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11fffffffff11ffffff11f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ff11ff11f1111111111f111111111ff11111111fff111111111fffffff11ffffff11f11111111fff111111111fffffff11ffffff11ffffff
+            ffffff11ff11ff11f1111111111f111111111ff11111111fff111111111fffffff11ffffff11f11111111fff111111111fffffff11ffffff11ffffff
+            ffffff11ff11ff11f11ffffff11f11fffffffff1111fffffff11ffffffffffffff1111111111f1111fffffff11ffffffffffffff11ffffff11ffffff
+            ffffff11ff11ff11f11ffffff11f11fffffffff1111fffffff11ffffffffffffff1111111111f1111fffffff11ffffffffffffff11ffffff11ffffff
+            ffffff1111ff1111f11ffffff11f11fffffffff11ff11fffff11ffffffffffffff11ffffff11f11ff11fffff11ffffffffffffff11ffffff11ffffff
+            ffffff1111ff1111f11ffffff11f11fffffffff11ff11fffff11ffffffffffffff11ffffff11f11ff11fffff11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f1111111111f11ffff1111f1111111111ffffff11ffffff11f11ffff1111f1111111111ffffff1111111111ffffff
+            ffffff11ffffff11f11ffffff11f1111111111f11ffff1111f1111111111ffffff11ffffff11f11ffff1111f1111111111ffffff1111111111ffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            `,img`
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            fffffddddddddffffffffff11fffff1111111111fff...............11111111ff...............................fffffffffffffffffffff
+            fffffddddddddffffffffff11fffff1111111111fff...............11111111ff...............................fffffffffffffffffffff
+            fbbbbddddddddddfffffffffffffffffff11fffffff...............11ffffff11...............................fffffffffffffffffffff
+            fbbbbddddddddddfffffffffffffffffff11fffffff...............11ffffff11...............................fffffffffffffffffffff
+            fbbbbbbddddddddffffffff11fffffffff11fffffff...............11ffffff11...............................fffffffffffffffffffff
+            fbbbbbbddddddddffffffff11fffffffff11fffffff...............11ffffff11...............................fffffffffffffffffffff
+            fbbbbeeddddddddffffffff11fffffffff11fffffff...............11111111ff...............................fffffffffffffffffffff
+            fbbbbeeddddddddffffffff11fffffffff11fffffff...............11111111ff...............................fffffffffffffffffffff
+            fffddffddddddddffffffff11fffffffff11fffffff...............1111ffffff...............................fffffffffffffffffffff
+            fffddffddddddddffffffff11fffffffff11fffffff...............1111ffffff...............................fffffffffffffffffffff
+            fffddddffffddddffffffff11fffffffff11fffffff...............11ff11ffff...............................fffffffffffffffffffff
+            fffddddffffddddffffffff11fffffffff11fffffff...............11ff11ffff...............................fffffffffffffffffffff
+            fffffddddddddffffffffff11fffffffff11fffffff...............11ffff1111...............................fffffffffffffffffffff
+            fffffddddddddffffffffff11fffffffff11fffffff...............11ffff1111...............................fffffffffffffffffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            ffffff11ffffff11f11ffffff11f1111111111...........f1111111111ffffffff111111fff11111111fff1111111111ffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f1111111111...........f1111111111ffffffff111111fff11111111fff1111111111ffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11ffffffff...........f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11ffffffff...........f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11ffffffff...........f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f11ffffffff...........f11ffffffffffffff11ffffff11f11ffffff11f11ffffffffffffff11ffffff11ffffff
+            ffffff11ff11ff11f1111111111f111111111f...........f111111111fffffff11ffffff11f11111111fff111111111fffffff11ffffff11ffffff
+            ffffff11ff11ff11f1111111111f111111111f...........f111111111fffffff11ffffff11f11111111fff111111111fffffff11ffffff11ffffff
+            ffffff11ff11ff11f11ffffff11f11ffffffff...........f11ffffffffffffff1111111111f1111fffffff11ffffffffffffff11ffffff11ffffff
+            ffffff11ff11ff11f11ffffff11f11ffffffff...........f11ffffffffffffff1111111111f1111fffffff11ffffffffffffff11ffffff11ffffff
+            ffffff1111ff1111f11ffffff11f11ffffffff...........f11ffffffffffffff11ffffff11f11ff11fffff11ffffffffffffff11ffffff11ffffff
+            ffffff1111ff1111f11ffffff11f11ffffffff...........f11ffffffffffffff11ffffff11f11ff11fffff11ffffffffffffff11ffffff11ffffff
+            ffffff11ffffff11f11ffffff11f1111111111...........f1111111111ffffff11ffffff11f11ffff1111f1111111111ffffff1111111111ffffff
+            ffffff11ffffff11f11ffffff11f1111111111...........f1111111111ffffff11ffffff11f11ffff1111f1111111111ffffff1111111111ffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            `],
+        170,
+        false
+        )
+        mySprite2.setPosition(mySprite.x, mySprite.y + 40)
+        dialogue = 0
+    }
+})
 function Game () {
     mySprite = sprites.create(img`
         ..........55555.........
@@ -32,6 +144,9 @@ function Game () {
     scene.cameraFollowSprite(mySprite)
     tiles.setCurrentTilemap(tilemap`level1`)
     crouch = 0
+    for (let value of tiles.getTilesByType(assets.tile`myTile73`)) {
+        tiles.setTileAt(value, assets.tile`transparency16`)
+    }
 }
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     if (game_start == 0) {
@@ -42,6 +157,9 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
             clock1()
             Player_nº = 2
             tiles.setCurrentTilemap(tilemap`level2`)
+            for (let value of tiles.getTilesByType(assets.tile`myTile73`)) {
+                tiles.setTileAt(value, assets.tile`transparency16`)
+            }
             Loading_out()
             controller.moveSprite(mySprite, 70, 0)
             mySprite.ay = 150
@@ -49,6 +167,9 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
             clock2()
             Player_nº = 1
             tiles.setCurrentTilemap(tilemap`level1`)
+            for (let value of tiles.getTilesByType(assets.tile`myTile73`)) {
+                tiles.setTileAt(value, assets.tile`transparency16`)
+            }
             Loading_out()
             controller.moveSprite(mySprite, 50, 0)
             mySprite.ay = 75
@@ -3386,6 +3507,16 @@ function clock2 () {
 }
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile20`, function (sprite, location) {
     mySprite.setPosition(mySprite.x - 16, mySprite.y - 16)
+})
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile66`, function (sprite, location) {
+    checkpoint = 1
+    if (life < 5) {
+        if (passed == 0) {
+            life += 1
+            effects.hearts.startScreenEffect(200)
+            passed = 1
+        }
+    }
 })
 function movement_animation2 () {
     if (crouch == 0) {
@@ -12164,10 +12295,10 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile53`, function (sprite, 
     death = 1
 })
 function health () {
-    if (lifes == 5) {
-        sprites.destroy(mySprite2)
+    if (life == 5) {
+        sprites.destroy(lifes)
         if (Player_nº == 1) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffff5555555555fff11ffffffffff11f1111111111111111f
                 fffff5555555555fff11ffffffffff11f1111111111111111f
@@ -12187,7 +12318,7 @@ function health () {
                 `, SpriteKind.animation)
         }
         if (Player_nº == 2) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffddddddddfffff11ffffffffff11f1111111111111111f
                 fffffddddddddfffff11ffffffffff11f1111111111111111f
@@ -12206,12 +12337,12 @@ function health () {
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 `, SpriteKind.animation)
         }
-        mySprite2.setPosition(mySprite.x - 50, mySprite.y - 50)
+        lifes.setPosition(mySprite.x - 50, mySprite.y - 50)
     }
-    if (lifes == 4) {
-        sprites.destroy(mySprite2)
+    if (life == 4) {
+        sprites.destroy(lifes)
         if (Player_nº == 1) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffff5555555555fff11ffffffffff11f11ffffff11fffffff
                 fffff5555555555fff11ffffffffff11f11ffffff11fffffff
@@ -12231,7 +12362,7 @@ function health () {
                 `, SpriteKind.animation)
         }
         if (Player_nº == 2) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffddddddddfffff11ffffffffff11f11ffffff11fffffff
                 fffffddddddddfffff11ffffffffff11f11ffffff11fffffff
@@ -12250,12 +12381,12 @@ function health () {
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 `, SpriteKind.animation)
         }
-        mySprite2.setPosition(mySprite.x - 50, mySprite.y - 50)
+        lifes.setPosition(mySprite.x - 50, mySprite.y - 50)
     }
-    if (lifes == 3) {
-        sprites.destroy(mySprite2)
+    if (life == 3) {
+        sprites.destroy(lifes)
         if (Player_nº == 1) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffff5555555555fff11ffffffffff11fff111111111111fff
                 fffff5555555555fff11ffffffffff11fff111111111111fff
@@ -12275,7 +12406,7 @@ function health () {
                 `, SpriteKind.animation)
         }
         if (Player_nº == 2) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffddddddddfffff11ffffffffff11fff111111111111fff
                 fffffddddddddfffff11ffffffffff11fff111111111111fff
@@ -12294,12 +12425,12 @@ function health () {
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 `, SpriteKind.animation)
         }
-        mySprite2.setPosition(mySprite.x - 50, mySprite.y - 50)
+        lifes.setPosition(mySprite.x - 50, mySprite.y - 50)
     }
-    if (lifes == 2) {
-        sprites.destroy(mySprite2)
+    if (life == 2) {
+        sprites.destroy(lifes)
         if (Player_nº == 1) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffff5555555555fff11ffffffffff11f1111111111111111f
                 fffff5555555555fff11ffffffffff11f1111111111111111f
@@ -12319,7 +12450,7 @@ function health () {
                 `, SpriteKind.animation)
         }
         if (Player_nº == 2) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffddddddddfffff11ffffffffff11f1111111111111111f
                 fffffddddddddfffff11ffffffffff11f1111111111111111f
@@ -12338,12 +12469,12 @@ function health () {
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 `, SpriteKind.animation)
         }
-        mySprite2.setPosition(mySprite.x - 50, mySprite.y - 50)
+        lifes.setPosition(mySprite.x - 50, mySprite.y - 50)
     }
-    if (lifes == 1) {
-        sprites.destroy(mySprite2)
+    if (life == 1) {
+        sprites.destroy(lifes)
         if (Player_nº == 1) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffff5555555555fff11ffffffffff11ffffff1111ffffffff
                 fffff5555555555fff11ffffffffff11fffff11111ffffffff
@@ -12363,7 +12494,7 @@ function health () {
                 `, SpriteKind.animation)
         }
         if (Player_nº == 2) {
-            mySprite2 = sprites.create(img`
+            lifes = sprites.create(img`
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 fffffddddddddfffff11ffffffffff11ffffff1111ffffffff
                 fffffddddddddfffff11ffffffffff11fffff11111ffffffff
@@ -12382,7 +12513,7 @@ function health () {
                 ffffffffffffffffffffffffffffffffffffffffffffffffff
                 `, SpriteKind.animation)
         }
-        mySprite2.setPosition(mySprite.x - 50, mySprite.y - 50)
+        lifes.setPosition(mySprite.x - 50, mySprite.y - 50)
     }
 }
 function lifes_a () {
@@ -12553,7 +12684,7 @@ function lifes_a () {
     lifes_animation.x = 80
     lifes_animation.y = 80
     scene.cameraFollowSprite(lifes_animation)
-    if (lifes == 5) {
+    if (life == 5) {
         characterAnimations.runFrames(
         lifes_animation,
         [img`
@@ -13367,7 +13498,7 @@ function lifes_a () {
         )
         pause(2500)
     }
-    if (lifes == 4) {
+    if (life == 4) {
         characterAnimations.runFrames(
         lifes_animation,
         [img`
@@ -14181,7 +14312,7 @@ function lifes_a () {
         )
         pause(2500)
     }
-    if (lifes == 3) {
+    if (life == 3) {
         characterAnimations.runFrames(
         lifes_animation,
         [img`
@@ -14995,7 +15126,7 @@ function lifes_a () {
         )
         pause(2500)
     }
-    if (lifes == 2) {
+    if (life == 2) {
         characterAnimations.runFrames(
         lifes_animation,
         [img`
@@ -15809,7 +15940,7 @@ function lifes_a () {
         )
         pause(2500)
     }
-    if (lifes == 1) {
+    if (life == 1) {
         characterAnimations.runFrames(
         lifes_animation,
         [img`
@@ -16626,9 +16757,56 @@ function lifes_a () {
         sprites.destroy(lifes_animation)
         game.gameOver(false)
     }
-    Game()
+    if (checkpoint == 0) {
+        Game()
+    }
+    if (checkpoint == 1) {
+        mySprite = sprites.create(img`
+            ..........55555.........
+            .........5444544........
+            ........5455d4d4........
+            ........54544dd.........
+            ........555dddd.........
+            ........55ddddd.........
+            ........554ddd..........
+            .......33333333.........
+            ......3332333332........
+            ......3332333332........
+            .....333233333323.......
+            .....3332333333233......
+            ....333.33333332333.....
+            ....dd3.3333333.33dd....
+            ....dd..3333333...dd....
+            ........8888c88.........
+            ........888cc88.........
+            ........888..888........
+            ........888..888........
+            .......888....888.......
+            ......8888....888.......
+            ......888.....888.......
+            .....fff......fff.......
+            .....fff......fff.......
+            `, SpriteKind.Player)
+        scene.cameraFollowSprite(mySprite)
+        tiles.setCurrentTilemap(tilemap`level1`)
+        crouch = 0
+        tiles.placeOnRandomTile(mySprite, assets.tile`myTile70`)
+        for (let value of tiles.getTilesByType(assets.tile`myTile73`)) {
+            tiles.setTileAt(value, assets.tile`transparency16`)
+        }
+    }
     sprites.destroy(lifes_animation)
 }
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile70`, function (sprite, location) {
+    checkpoint = 1
+    if (life < 5) {
+        if (passed == 0) {
+            life += 1
+            effects.hearts.startScreenEffect(200)
+            passed = 1
+        }
+    }
+})
 let lifes_animation: Sprite = null
 let death = 0
 let double_jump = 0
@@ -16637,15 +16815,22 @@ let Animation: Sprite = null
 let Clock_animation_2: Sprite = null
 let Loading1: Sprite = null
 let Loading2: Sprite = null
+let mySprite2: Sprite = null
 let mySprite: Sprite = null
 let Game_Start_Screen: Sprite = null
 let crouch_next = 0
 let game_start = 0
 let Player_nº = 0
-let lifes = 0
+let life = 0
 let crouch = 0
-let mySprite2: Sprite = null
-mySprite2 = sprites.create(img`
+let lifes: Sprite = null
+let passed = 0
+let checkpoint = 0
+let dialogue = 0
+dialogue = 1
+checkpoint = 0
+passed = 0
+lifes = sprites.create(img`
     ........................
     ........................
     ........................
@@ -16672,7 +16857,7 @@ mySprite2 = sprites.create(img`
     ........................
     `, SpriteKind.animation)
 crouch = 0
-lifes = 5
+life = 5
 Player_nº = 1
 game_start = 0
 crouch_next = 0
@@ -16946,6 +17131,32 @@ mySprite = sprites.create(img`
     ........................
     ........................
     `, SpriteKind.Player)
+mySprite2 = sprites.create(img`
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    ........................
+    `, SpriteKind.animation)
 scroller.scrollBackgroundWithCamera(scroller.CameraScrollMode.BothDirections)
 mySprite = sprites.create(img`
     ..........55555.........
@@ -16977,6 +17188,28 @@ mySprite.setPosition(156, 128)
 scene.cameraFollowSprite(mySprite)
 tiles.setCurrentTilemap(tilemap`level1`)
 crouch = 0
+let bug = sprites.create(img`
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . . . . 
+    . . . . . . . . . . . . . 6 . . 
+    . . . . . . . . . . f f 6 f 6 . 
+    . . . . . . . . . f 6 f 6 f 6 . 
+    . . . . . . . . f 6 6 f f 6 f . 
+    . . . 6 . 7 . f f f 6 f f f f . 
+    . . 6 6 7 7 f f f 6 6 6 f f f . 
+    . 7 7 7 7 f f f f f f f f f c . 
+    . 7 c c 7 7 f f f f f f f c c . 
+    7 7 7 7 7 7 7 c c c 7 c c c . . 
+    . . 6 . . 7 . . . 6 . 7 . . . . 
+    . 6 . . . . 7 . 6 . . . 7 . . . 
+    `, SpriteKind.Enemy)
+tiles.placeOnRandomTile(bug, assets.tile`myTile73`)
+for (let value of tiles.getTilesByType(assets.tile`myTile73`)) {
+    tiles.setTileAt(value, assets.tile`transparency16`)
+}
 game.onUpdate(function () {
     if (mySprite.vy == 0) {
         double_jump = 0
@@ -16988,6 +17221,7 @@ game.onUpdate(function () {
 forever(function () {
     if (game_start == 0) {
         health()
+        mySprite2.setPosition(mySprite.x, mySprite.y + 40)
     }
 })
 forever(function () {
@@ -17010,6 +17244,12 @@ forever(function () {
         lifes_a()
         death = 0
         Player_nº = 1
-        lifes += -1
+        life += -1
     }
+})
+forever(function () {
+    pause(2000)
+    bug.setVelocity(16, 0)
+    pause(2000)
+    bug.setVelocity(-16, 0)
 })
