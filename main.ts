@@ -173,36 +173,69 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile77`, function (sprite, 
             ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
             `,img`
             ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            fffffddddddddfffff11ffffff11f1111111111fff11ffffff11fff111111fff11ffffff11f1111111111fffffffffffffffffffffffffffffffffff
-            fffffddddddddfffff11ffffff11f1111111111fff11ffffff11fff111111fff11ffffff11f1111111111fffffffffffffffffffffffffffffffffff
-            fbbbbddddddddddfff11ffffff11f11fffffffffff11ffffff11f11ffffff11f11ffffff11f11fffffffffffffffffffffffffffffffffffffffffff
-            fbbbbddddddddddfff11ffffff11f11fffffffffff11ffffff11f11ffffff11f11ffffff11f11fffffffffffffffffffffffffffffffffffffffffff
-            fbbbbbbddddddddfff11ffffff11f11fffffffffff11ffffff11f11ffffff11f11ffffff11f11fffffffffffffffffffffffffffffffffffffffffff
-            fbbbbbbddddddddfff11ffffff11f11fffffffffff11ffffff11f11ffffff11f11ffffff11f11fffffffffffffffffffffffffffffffffffffffffff
-            fbbbbeeddddddddfff11ff11ff11f111111111ffff1111111111f11ffffff11fff11ff11fff111111111ffffffffffffffffffffffffffffffffffff
-            fbbbbeeddddddddfff11ff11ff11f111111111ffff1111111111f11ffffff11fff11ff11fff111111111ffffffffffffffffffffffffffffffffffff
-            fffddffddddddddfff11ff11ff11f11fffffffffff11ffffff11f1111111111fff11ff11fff11fffffffffffffffffffffffffffffffffffffffffff
-            fffddffddddddddfff11ff11ff11f11fffffffffff11ffffff11f1111111111fff11ff11fff11fffffffffffffffffffffffffffffffffffffffffff
-            fffddddffffddddfff1111ff1111f11fffffffffff11ffffff11f11ffffff11fff11ff11fff11fffffffffffffffffffffffffffffffffffffffffff
-            fffddddffffddddfff1111ff1111f11fffffffffff11ffffff11f11ffffff11fff11ff11fff11fffffffffffffffffffffffffffffffffffffffffff
-            fffffddddddddfffff11ffffff11f1111111111fff11ffffff11f11ffffff11fffff11fffff1111111111fffffffffffffffffffffffffffffffffff
-            fffffddddddddfffff11ffffff11f1111111111fff11ffffff11f11ffffff11fffff11fffff1111111111fffffffffffffffffffffffffffffffffff
+            fffffddddddddfff11ffffff11f1111111111ff11ffffff11fff111111fff11ffffff11f1111111111ff1111111111f11ffffff11f11fff111111fff
+            fffffddddddddfff11ffffff11f1111111111ff11ffffff11fff111111fff11ffffff11f1111111111ff1111111111f11ffffff11f11fff111111fff
+            fbbbbddddddddddf11ffffff11f11ffffffffff11ffffff11f11ffffff11f11ffffff11f11ffffffffffffff11fffff11ffffff11ffff11ffffff11f
+            fbbbbddddddddddf11ffffff11f11ffffffffff11ffffff11f11ffffff11f11ffffff11f11ffffffffffffff11fffff11ffffff11ffff11ffffff11f
+            fbbbbbbddddddddf11ffffff11f11ffffffffff11ffffff11f11ffffff11f11ffffff11f11ffffffffffffff11fffff11ffffff11f11f11fffffffff
+            fbbbbbbddddddddf11ffffff11f11ffffffffff11ffffff11f11ffffff11f11ffffff11f11ffffffffffffff11fffff11ffffff11f11f11fffffffff
+            fbbbbeeddddddddf11ff11ff11f111111111fff1111111111f11ffffff11fff11ff11fff111111111fffffff11fffff1111111111f11fff111111fff
+            fbbbbeeddddddddf11ff11ff11f111111111fff1111111111f11ffffff11fff11ff11fff111111111fffffff11fffff1111111111f11fff111111fff
+            fffddffddddddddf11ff11ff11f11ffffffffff11ffffff11f1111111111fff11ff11fff11ffffffffffffff11fffff11ffffff11f11fffffffff11f
+            fffddffddddddddf11ff11ff11f11ffffffffff11ffffff11f1111111111fff11ff11fff11ffffffffffffff11fffff11ffffff11f11fffffffff11f
+            fffddddffffddddf1111ff1111f11ffffffffff11ffffff11f11ffffff11fff11ff11fff11ffffffffffffff11fffff11ffffff11f11f11ffffff11f
+            fffddddffffddddf1111ff1111f11ffffffffff11ffffff11f11ffffff11fff11ff11fff11ffffffffffffff11fffff11ffffff11f11f11ffffff11f
+            fffffddddddddfff11ffffff11f1111111111ff11ffffff11f11ffffff11fffff11fffff1111111111ffffff11fffff11ffffff11f11fff111111fff
+            fffffddddddddfff11ffffff11f1111111111ff11ffffff11f11ffffff11fffff11fffff1111111111ffffff11fffff11ffffff11f11fff111111fff
             ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
             ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-            ffffffff111111fffff11fffffffff11f1111111111f1111111111f11fffffffff1111111111fffff111111fff11fff111111fff11ffffff11ffffff
-            ffffffff111111fffff11fffffffff11f1111111111f1111111111f11fffffffff1111111111fffff111111fff11fff111111fff11ffffff11ffffff
-            ffffff11ffffff11fff11ffffffffffffffff11fffffffff11fffff11fffffffff11fffffffffff11ffffff11ffff11ffffff11f1111ffff11ffffff
-            ffffff11ffffff11fff11ffffffffffffffff11fffffffff11fffff11fffffffff11fffffffffff11ffffff11ffff11ffffff11f1111ffff11ffffff
-            ffffff11ffffff11fff11fffffffff11fffff11fffffffff11fffff11fffffffff11fffffffffff11fffffffff11f11fffffffff11ff11ff11ffffff
-            ffffff11ffffff11fff11fffffffff11fffff11fffffffff11fffff11fffffffff11fffffffffff11fffffffff11f11fffffffff11ff11ff11ffffff
-            ffffff11ffffff11fff11fffffffff11fffff11fffffffff11fffff11fffffffff111111111ffffff111111fff11f11fffffffff11ff11ff11ffffff
-            ffffff11ffffff11fff11fffffffff11fffff11fffffffff11fffff11fffffffff111111111ffffff111111fff11f11fffffffff11ff11ff11ffffff
-            ffffff1111111111fff11fffffffff11fffff11fffffffff11fffff11fffffffff11fffffffffffffffffff11f11f11ffff1111f11ff11ff11ffffff
-            ffffff1111111111fff11fffffffff11fffff11fffffffff11fffff11fffffffff11fffffffffffffffffff11f11f11ffff1111f11ff11ff11ffffff
-            ffffff11ffffff11fff11fffffffff11fffff11fffffffff11fffff11fffffffff11fffffffffff11ffffff11f11f11ffffff11f11ffff1111ffffff
-            ffffff11ffffff11fff11fffffffff11fffff11fffffffff11fffff11fffffffff11fffffffffff11ffffff11f11f11ffffff11f11ffff1111ffffff
-            ffffff11ffffff11fff1111111111f11fffff11fffffffff11fffff1111111111f1111111111fffff111111fff11fff111111fff11ffffff11ffffff
-            ffffff11ffffff11fff1111111111f11fffff11fffffffff11fffff1111111111f1111111111fffff111111fff11fff111111fff11ffffff11ffffff
+            fffffffffff1111111111fff111111fff11111111fff11111111fff11ffffff11fff111111fff11ffffff11f1111111111fff111111fffffffffffff
+            fffffffffff1111111111fff111111fff11111111fff11111111fff11ffffff11fff111111fff11ffffff11f1111111111fff111111fffffffffffff
+            fffffffffff11fffffffff11ffffff11f11ffffff11f11ffffff11f11ffffff11f11ffffff11f1111ffff11f11fffffffff11ffffff11fffffffffff
+            fffffffffff11fffffffff11ffffff11f11ffffff11f11ffffff11f11ffffff11f11ffffff11f1111ffff11f11fffffffff11ffffff11fffffffffff
+            fffffffffff11fffffffff11ffffff11f11ffffff11f11ffffff11f11ffffff11f11ffffff11f11ff11ff11f11fffffffff11fffffffffffffffffff
+            fffffffffff11fffffffff11ffffff11f11ffffff11f11ffffff11f11ffffff11f11ffffff11f11ff11ff11f11fffffffff11fffffffffffffffffff
+            fffffffffff111111111ff11ffffff11f11111111fff11111111fff1111111111f11ffffff11f11ff11ff11f111111111ffff111111fffffffffffff
+            fffffffffff111111111ff11ffffff11f11111111fff11111111fff1111111111f11ffffff11f11ff11ff11f111111111ffff111111fffffffffffff
+            fffffffffff11fffffffff1111111111f1111fffffff11fffffffff11ffffff11f11ffffff11f11ff11ff11f11fffffffffffffffff11fffffffffff
+            fffffffffff11fffffffff1111111111f1111fffffff11fffffffff11ffffff11f11ffffff11f11ff11ff11f11fffffffffffffffff11fffffffffff
+            fffffffffff11fffffffff11ffffff11f11ff11fffff11fffffffff11ffffff11f11ffffff11f11ffff1111f11fffffffff11ffffff11fffffffffff
+            fffffffffff11fffffffff11ffffff11f11ff11fffff11fffffffff11ffffff11f11ffffff11f11ffff1111f11fffffffff11ffffff11fffffffffff
+            fffffffffff1111111111f11ffffff11f11ffff1111f11fffffffff11ffffff11fff111111fff11ffffff11f1111111111fff111111fffffffffffff
+            fffffffffff1111111111f11ffffff11f11ffff1111f11fffffffff11ffffff11fff111111fff11ffffff11f1111111111fff111111fffffffffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            `,img`
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            fffff5555555555ffffff111111fff11ffff11ffffff11fff111111fff11f1111111111ffff11ffffff11f11ffffff11fff111111fff1111111111ff
+            fffff5555555555ffffff111111fff11ffff11ffffff11fff111111fff11f1111111111ffff11ffffff11f11ffffff11fff111111fff1111111111ff
+            fff55444444554444ff11ffffff11f11ffff11ffffff11f11ffffff11ffffffff11ffffffff11ffffff11f11ffffff11f11ffffff11fffff11ffffff
+            fff55444444554444ff11ffffff11f11ffff11ffffff11f11ffffff11ffffffff11ffffffff11ffffff11f11ffffff11f11ffffff11fffff11ffffff
+            f55445555dd44dd44ff11ffffff11f11ffff11ffffff11f11ffffff11f11fffff11ffffffff11ffffff11f11ffffff11f11ffffff11fffff11ffffff
+            f55445555dd44dd44ff11ffffff11f11ffff11ffffff11f11ffffff11f11fffff11ffffffff11ffffff11f11ffffff11f11ffffff11fffff11ffffff
+            f5544554444ddddffff11ffffff11f11ffff11ff11ff11f11ffffff11f11fffff11ffffffff11ff11ff11f1111111111f11ffffff11fffff11ffffff
+            f5544554444ddddffff11ffffff11f11ffff11ff11ff11f11ffffff11f11fffff11ffffffff11ff11ff11f1111111111f11ffffff11fffff11ffffff
+            f5555ffddddddddffff1111111111f11ffff11ff11ff11f1111111111f11fffff11ffffffff11ff11ff11f11ffffff11f1111111111fffff11ffffff
+            f5555ffddddddddffff1111111111f11ffff11ff11ff11f1111111111f11fffff11ffffffff11ff11ff11f11ffffff11f1111111111fffff11ffffff
+            f5555ddffffddddffff11ffffff11fffffff1111ff1111f11ffffff11f11fffff11ffffffff1111ff1111f11ffffff11f11ffffff11fffff11ffffff
+            f5555ddffffddddffff11ffffff11fffffff1111ff1111f11ffffff11f11fffff11ffffffff1111ff1111f11ffffff11f11ffffff11fffff11ffffff
+            f555544ddddddffffff11ffffff11f11ffff11ffffff11f11ffffff11f11fffff11ffffffff11ffffff11f11ffffff11f11ffffff11fffff11ffffff
+            f555544ddddddffffff11ffffff11f11ffff11ffffff11f11ffffff11f11fffff11ffffffff11ffffff11f11ffffff11f11ffffff11fffff11ffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+            fff11fff111111ffffffff111111fff11ffffff11ffff1111111111f11ffffff11f1111111111fffffff111111fff11fff111111fff11ffffff11fff
+            fff11fff111111ffffffff111111fff11ffffff11ffff1111111111f11ffffff11f1111111111fffffff111111fff11fff111111fff11ffffff11fff
+            ffffff11ffffff11ffff11ffffff11f1111ffff11ffffffff11fffff11ffffff11f11fffffffffffff11ffffff11ffff11ffffff11f1111ffff11fff
+            ffffff11ffffff11ffff11ffffff11f1111ffff11ffffffff11fffff11ffffff11f11fffffffffffff11ffffff11ffff11ffffff11f1111ffff11fff
+            fff11f11ffffffffffff11ffffff11f11ff11ff11ffffffff11fffff11ffffff11f11fffffffffffff11fffffffff11f11fffffffff11ff11ff11fff
+            fff11f11ffffffffffff11ffffff11f11ff11ff11ffffffff11fffff11ffffff11f11fffffffffffff11fffffffff11f11fffffffff11ff11ff11fff
+            fff11fff111111ffffff11ffffff11f11ff11ff11ffffffff11fffff1111111111f111111111ffffffff111111fff11f11fffffffff11ff11ff11fff
+            fff11fff111111ffffff11ffffff11f11ff11ff11ffffffff11fffff1111111111f111111111ffffffff111111fff11f11fffffffff11ff11ff11fff
+            fff11fffffffff11ffff11ffffff11f11ff11ff11ffffffff11fffff11ffffff11f11fffffffffffffffffffff11f11f11ffff1111f11ff11ff11fff
+            fff11fffffffff11ffff11ffffff11f11ff11ff11ffffffff11fffff11ffffff11f11fffffffffffffffffffff11f11f11ffff1111f11ff11ff11fff
+            fff11f11ffffff11ffff11ffffff11f11ffff1111ffffffff11fffff11ffffff11f11fffffffffffff11ffffff11f11f11ffffff11f11ffff1111fff
+            fff11f11ffffff11ffff11ffffff11f11ffff1111ffffffff11fffff11ffffff11f11fffffffffffff11ffffff11f11f11ffffff11f11ffff1111fff
+            fff11fff111111ffffffff111111fff11ffffff11ffffffff11fffff11ffffff11f1111111111fffffff111111fff11fff111111fff11ffffff11fff
+            fff11fff111111ffffffff111111fff11ffffff11ffffffff11fffff11ffffff11f1111111111fffffff111111fff11fff111111fff11ffffff11fff
             ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
             `],
         1700,
